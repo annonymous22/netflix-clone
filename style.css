@@ -1,0 +1,287 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assests/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: max(1000px,100vw);
+    height: 80vh;
+    position: relative;
+
+}
+
+.box {
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.70;
+    position: absolute;
+    top: 0;
+}
+
+.navbar {
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar img {
+    width: 100px;
+    position: relative;
+    z-index: 10;
+}
+
+.navbar button {
+    margin: 5px;
+    padding: 3px 5px;
+    transition: ease-in-out;
+    background-color: red;
+    color: whitesmoke;
+
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: ease-in-out;
+    color: black;
+}
+
+.discription {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 83%;
+    color: whitesmoke;
+    position: relative;
+    gap: 50px;
+}
+
+.discription h1 {
+    text-align: center;
+    font-weight: 1000;
+    width: 500px;
+}
+
+.input {
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+    position: relative;
+    bottom: 30px;
+   
+}
+
+.main input{
+    width: 300px;
+    font-weight: 700;
+    color: aliceblue;
+ background: rgba(23, 23, 23, 0.2);
+ border-radius:5px solid white ;
+
+}
+
+.input button {
+    font-weight: bolder;
+    padding: 10px;
+    background-color: red;
+    color: whitesmoke;
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.seperation {
+    background-color: grey;
+    height: 5px;
+}
+
+.first{
+position: relative;
+ top: 20px;
+ display: flex;
+justify-content: center;
+align-items: center;
+max-width: 80vw;
+margin: auto;
+color: aliceblue;
+}
+.first> div:nth-child(1){
+  font-size: x-large;
+}
+.first img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.img{
+    position: relative;
+}
+
+ .img video{
+    width: 400px;
+    position:absolute;
+    top: 50px;
+    right: 0;
+ } 
+ .seperation_2{
+    position: relative;
+    top: 50px;
+     background-color: grey;
+    height: 5px;
+ }
+
+ .second img{
+    position: relative;
+    top: 30px;
+    width: 30vw;
+ }
+  .seperation_3{
+    position: relative;
+    top: 70px;
+     background-color: grey;
+    height: 5px;
+ }
+
+ .second>div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+ .second>div :first-child{
+    font-size: xx-large;
+    font-weight: bolder;
+ }
+
+ .third .secImg{
+    position: relative;
+    top: 100px;
+ }
+ .third video{
+    width: 30vw;
+    position:absolute;
+    top: 40px;
+    right: 0;
+ }
+
+.third>div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.third>div :nth-child(1){
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.third>div :nth-child(2){
+    font-size: medium;
+}
+.seperation_4{
+     position: relative;
+     top: 150px;
+     background-color: grey;
+    height: 5px;
+}
+
+.four{
+    position: relative;
+    top: 200px;
+
+}
+
+.four>div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.four>div :nth-child(1){
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.seperation_5{
+     position: relative;
+     top: 200px;
+     background-color: grey;
+    height: 5px;
+}
+.faq{
+    background-color: black;
+    color: white;
+    padding: 205px;
+}
+.faq h2{
+    color: white;
+    text-align: center; 
+}
+
+.faqbox{
+    font-size: larger;
+    display: flex;
+    background-color: grey;
+    padding: 10px;
+    max-width: 60vw;
+    margin: 15px auto;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+.faqbox:hover{
+    background-color: rgb(68, 70, 70);
+}
+
+.seperation_6{
+        position: relative;
+     top: -201px;
+     background-color: grey;
+    height: 5px;
+}
+
+footer{
+    position: relative;
+    bottom: 190px;
+    max-width: 80vw;
+margin:50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+.footer-item ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+.footer-item ul li{
+
+    list-style: none;
+    text-decoration:underline;
+}
+
+
+
+
+footer span{
+    font-size: small;
+    position: absolute;
+    bottom: 170px;
+
+}
+
+
